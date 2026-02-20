@@ -91,6 +91,32 @@
     transform: none;
   }
 
+  .btn-action-orange {
+    background-color: #f97316;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 14px 0 rgba(249, 115, 22, 0.3);
+  }
+  .btn-action-orange:hover {
+    background-color: #ea580c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+  }
+  .btn-action-orange:active {
+    transform: translateY(0);
+  }
+
   .btn-ghost {
     background: transparent;
     color: var(--muted);
@@ -246,7 +272,15 @@
     flex: 1;
     margin-left: 240px;
     padding: 2rem;
-    max-width: 100%;
+    min-height: 100vh;
+    width: calc(100% - 240px);
+  }
+
+  .container-pro {
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Responsive grid */
