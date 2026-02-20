@@ -12,7 +12,7 @@
 
 ## 🚀 Live Demo
 
-> **[LinkSafe on Render →](https://your-render-url.onrender.com)**
+> **[LinkSafe on Render →](https://url-shortner-9mzj.onrender.com/)**
 
 ---
 
@@ -250,7 +250,7 @@ App runs at **http://localhost:5173** → Backend at **http://localhost:8001**
 
 ## 👤 Author
 
-**Ram Satyam** — [@Satyamand536](https://github.com/Satyamand536)
+** Satyam Tiwari** — [@Satyamand536](https://github.com/Satyamand536)
 
 ---
 
