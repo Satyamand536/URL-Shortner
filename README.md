@@ -12,7 +12,7 @@
 
 ## 🚀 Live Demo
 
-> **[LinkSafe on Render →](https://url-shortner-9mzj.onrender.com/)**
+> **[LinkSafe →](https://url-shortner-9mzj.onrender.com/)**
 
 ---
 
@@ -235,18 +235,7 @@ App runs at **http://localhost:5173** → Backend at **http://localhost:8001**
 | Safe Preview | `/preview?url=...&id=...` | Intercept redirect, show destination info |
 | Sign In / Up | `/signin`, `/signup` | JWT cookie-based auth |
 
----
 
-## 🎯 What Makes This Top 1%
-
-1. **Security is a feature, not an afterthought** — Preview page, HTTPS enforcement, HttpOnly cookies, HMAC hashing, rate limiting, and per-link ownership checks all work in concert.
-2. **Dual analytics modes** — Most shorteners show global OR per-link. LinkSafe shows both, live-aggregated in the frontend.
-3. **Audit trail built into the schema** — `auditLog[]` on the Mongoose model means every create/edit is immutably recorded.
-4. **QR + short URL in one flow** — No external QR APIs, generated server-side and downloadable.
-5. **Graceful shutdown + structured logging** — `SIGTERM`/`SIGINT` handlers + Morgan + structured console logs = production-ready.
-6. **Partial monorepo, single deployment** — Express serves the React `dist/` build, so Render needs only one service.
-
----
 
 ## 👤 Author
 
