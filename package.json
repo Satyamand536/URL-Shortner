@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Premium SaaS URL Shortener - FullStack Bundle",
   "scripts": {
-    "install:all": "npm install && echo 'Root installed' && cd frontend && npm install --legacy-peer-deps && echo 'Frontend installed' && cd ../backend && npm install && echo 'Backend installed'",
+    "install:all": "npm install --legacy-peer-deps && echo 'Root installed' && cd frontend && npm install --legacy-peer-deps && echo 'Frontend installed' && cd ../backend && npm install --legacy-peer-deps && echo 'Backend installed'",
     "build:frontend": "cd frontend && npm run build && echo 'Frontend built'",
     "start": "cd backend && npm start",
     "render-build": "npm run install:all && npm run build:frontend"
