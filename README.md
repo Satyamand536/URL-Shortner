@@ -250,7 +250,7 @@ App runs at **http://localhost:5173** → Backend at **http://localhost:8001**
 
 ## 👤 Author
 
-** Satyam Tiwari** — [@Satyamand536](https://github.com/Satyamand536)
+ Satyam Tiwari — [@Satyamand536](https://github.com/Satyamand536)
 
 ---
 
