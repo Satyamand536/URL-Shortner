@@ -1,0 +1,14 @@
+{
+  "name": "linksafe-fullstack",
+  "version": "1.0.0",
+  "description": "Premium SaaS URL Shortener - FullStack Bundle",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "render-build": "npm run install:all && npm run build:frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
